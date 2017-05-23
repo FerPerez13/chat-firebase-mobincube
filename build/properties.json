@@ -1,0 +1,208 @@
+{
+    "tabs": [
+        {
+            "key": "tabFirebase",
+            "label": "Firebase",
+            "properties": [{
+                "key":"firebaseins",
+                "type":"label",
+                "label":{"en":"How to create the firebase database:","es":"¿Cómo crear una base de datos de Firebase?"},
+                "value":{"en":"Go to 'https://firebase.google.com/' and open a free account. Create a new project inside Firebase. Access that project and go to the database section. Copy the URL that you'll see and paste it in the following field.","es":"Ve a 'https://firebase.google.com/' y abre una cuenta gratuita. Crea un nuevo proyecto en Firebase. Entra en el proyecto y ve a la sección de base de datos (Database). Copia la URL que verás allí y pégala en el campo siguiente."}
+            },
+            {
+                "key": "databaseURL",
+                "type": "text",
+                "label": {"en":"Database URL:","es":"URL de la base de datos:"},
+                "value": ""
+            }
+            ]
+        },
+        {
+            "key": "tabNameInput",
+            "label": "LOGIN SCREEN",
+            "properties": [
+                {
+                    "key": "backgroundColorNameInput",
+                    "type": "color",
+                    "label": {"en":"Background color:","es":"Color de fondo:"},
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "backgroundColorInputNameInput",
+                    "type": "color",
+                    "label": {"en":"Input background color:","es":"Color de fondo del campo de texto:"},
+                    "value": "rgba(0, 0, 0, .2)"
+                },
+                {
+                    "key": "fontColorNameInput",
+                    "type": "color",
+                    "label": {"en":"Input font color:","es":"Color de texto de entrada:"},
+                    "value": "#000000"
+                },
+                {
+                    "key": "textSizeNameInput",
+                    "type": "range",
+                    "label": {"en":"Input text size:","es":"Tamaño de texto de entrada:"},
+                    "value": "12",
+                    "min": 10,
+                    "max": 25
+                },
+                {
+                    "key": "textButtonNameInput",
+                    "type": "text",
+                    "label": {"en":"Button text:","es":"Texto del botón:"},
+                    "value": "Enter"
+                },
+                {
+                    "key": "backgroundColorButtonNameInput",
+                    "type": "color",
+                    "label": {"en":"Button color:","es":"Color del botón:"},
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "buttonFontColor",
+                    "type": "color",
+                    "label": {"en":"Button text color:","es":"Color de texto del botón:"},
+                    "value": "#000000"
+                },
+                {
+                    "key": "textSizeButtonNameInput",
+                    "type": "range",
+                    "label": {"en":"Button text size:","es":"Tamaño de texto del botón:"},
+                    "value": "12",
+                    "min": 6,
+                    "max": 24
+                }
+            ]
+        },
+        {
+            "key": "tabChat",
+            "label": "CHAT SCREEN",
+            "properties": [{
+                "key": "nameAppToolbar",
+                "type": "text",
+                "label": {"en":"Name of the chat:","es":"Nombre del chat"},
+                "value": "Chat"
+            },
+            {
+                "key": "backgroundColorChat",
+                "type": "color",
+                "label": {"en":"Background color:","es":"Color de fondo:"},
+                "value": "#ffffff"
+            },
+
+            {
+                "key": "backgroundColorToolbar",
+                "type": "color",
+                "label": {"en":"Toolbar background color:","es":"Color de la cabecera:"},
+                "value": "#455a64"
+            },
+            {
+                "key": "fontColorToolbar",
+                "type": "color",
+                "label": {"en":"Toolbar text color:","es":"Color de texto de la cabecera:"},
+                "value": "#ffffff"
+            },
+            {
+                "key": "textSizeToolbar",
+                "type": "range",
+                "label": {"en":"Toolbar text size:","es":"Tamaño del texto de la cabecera:"},
+                "value": "20",
+                "min": 15,
+                "max":30
+            },
+            {
+                "key": "buttonImageLogout",
+                "type": "file",
+                "label": {"en":"Exit button icon:","es":"Icono del botón de salida:"},
+                "buttonLabel": "Image",
+                "accept": "image/*"
+            },
+            {
+                "key": "loadingImage",
+                "type": "file",
+                "label": {"en":"Loading animated GIF:","es":"GIF de animación de carga"},
+                "buttonLabel": "Image",
+                "accept": "image/*"
+            },
+            {
+                "key": "othersMessagesBubbleColorChat",
+                "type": "color",
+                "label": {"en":"People bubbles color:","es":"Color de los bocadillos de la gente:"},
+                "value": "#ccff99"
+            },
+            {
+                "key": "fontColorUsername",
+                "type": "color",
+                "label": {"en":"Author font color:","es":"Color del autor de un mensaje:"},
+                "value": "#000000"
+            },
+            {
+                "key": "fontColorMessage",
+                "type": "color",
+                "label": {"en":"People messages color:","es":"Color de los mensajes de la gente:"},
+                "value": "#000000"
+            },
+            {
+                "key": "ourMessagesBubbleColorChat",
+                "type": "color",
+                "label": {"en":"Own bubbles color:","es":"Color de los bocadillos propios:"},
+                "value": "#99cc00"
+            },
+            {
+                "key": "fontColorOwnUsername",
+                "type": "color",
+                "label": {"en":"Username color:","es":"Color de nombre de usuario:"},
+                "value": "#000000"
+            },
+            {
+                "key": "fontColorOwnMessage",
+                "type": "color",
+                "label": {"en":"Own messages color:","es":"Color de los mensajes propios:"},
+                "value": "#000000"
+            },
+            {
+                "key": "textSizeChat",
+                "type": "range",
+                "label": {"en":"Chat text size:","es":"Tamño de texto del chat:"},
+                "value": "15",
+                "min": 15,
+                "max":25
+            },
+            {
+                "key": "inputMessageColor",
+                "type": "color",
+                "label": {"en":"Input message background color:","es":"Color de fondo de la entrada de texto:"},
+                "value": "rgba(0, 0, 0, .2)"
+            },
+            {
+                "key": "fontColorInput",
+                "type": "color",
+                "label": {"en":"Input message color:","es":"Color de la entrada de texto:"},
+                "value": "#000000"
+            },
+            {
+                "key": "textSizeInput",
+                "type": "range",
+                "label": {"en":"Input message font size:","es":"Tamaño de fuente de la entrada de texto:"},
+                "value": "15",
+                "min": 15,
+                "max":25
+            },
+            {
+                "key": "imageSendButtonChat",
+                "type": "file",
+                "label": {"en":"Send button image:","es":"Imagen del botón de enviar:"},
+                "buttonLabel": "Image",
+                "accept": "image/*"
+            },
+            {
+                "key": "backgroundColorImageChat",
+                "type": "color",
+                "label": {"en":"Send button background color:","es":"Color de fondo del botón de enviar:"},
+                "value": "rgba(0, 0, 0, .2)"
+            }
+            ]
+        }
+    ]
+}
